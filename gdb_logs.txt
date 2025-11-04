@@ -1,0 +1,500 @@
+   44  make test_week2
+   45  make all
+   46  make test_week
+   47  make test_week2
+   48  make test_week3
+   49  make test_week3
+   50  make test_week3
+   51  make test_week4
+   52  make all
+   53  make all
+   54  make all
+   55  make all
+   56  make all
+   57  make all
+   58  make all
+   59  make test_week4
+   60  make all
+   61  make all
+   62  make all
+   63  make test_week4
+   64  ci_reference -i testcases/week4/b.eq.s
+   65  bin/ci -i testcases/week4/b.eq.s
+   66  make all
+   67  make test_week4
+   68  bin/ci -i testcases/week4/b.eq.s
+   69  ci_reference -i testcases/week4/b.eq.s
+   70  bin/ci -i testcases/week4/b.eq.s
+   71  make all
+   72  make all
+   73  make all
+   74  make test_week4
+   75  make test_week4
+   76  make test_week4
+   77  make all
+   78  make test_week4
+   79  make test_week4
+   80  make test_week4
+   81  make test_week4
+   82  make test_week4
+   83  make test_week4
+   84  make all
+   85  make test_week4
+   86  bin/ci -i testcases/week4/call.s
+   87  ci_reference -i testcases/week4/call.s
+   88  make all
+   89  ci_reference -i testcases/week4/call.s
+   90  bin/ci -i testcases/week4/call.s
+   91  make all
+   92  make test_week4
+   93  ci_reference -i testcases/week4/ret2.ss
+   94  ci_reference -i testcases/week4/ret2.s
+   95  bin/ci -i testcases/week4/ret2.s
+   96  bin/ci -i testcases/week4/b.gt_err.s
+   97  ci_reference -i testcases/week4/b.get_err.s
+   98  ci_reference -i testcases/week4/b.
+   99  make all
+  100  make all
+  101  ci_reference -i testcases/week4/popcount.s
+  102  bin/ci -i testcases/week4/popcount.s
+  103  bin/ci -i testcases/week4/popcount.s
+  104  make all
+  105  bin/ci -i testcases/week4/popcount.s
+  106  make test_week4
+  107  bin/ci -i testcases/week4/popcount.s
+  108  ci_reference -i testcases/week4/popcount.s
+  109  ci_reference -i testcases/week4/popcount.s
+  110  make all
+  111  bin/ci -i testcases/week4/popcount.s
+  112  ci_reference -i testcases/week4/po
+  113  make test_week4
+  114  ci_reference -i testcases/week4/call_err2.s
+  115  bin/ci -i testcases/week4/call_err2.s
+  116  bin/ci -i testcases/week4/call_err2.s
+  117  make all
+  118  bin/ci -i testcases/week4/call_err2.s
+  119  bin/ci -i testcases/week4/b.eq_err.s
+  120  ci_reference -i testcases/week4/b.eq_err.s
+  121  make all
+  122  make all
+  123  bin/ci -i testcases/week4/b.eq.s
+  124  bin/ci -i testcases/week4/b.eq.s
+  125  make all
+  126  make all
+  127  make all
+  128  make all
+  129  make all
+  130  bin/ci -i testcases/week4/b.eq.s
+  131  make all
+  132  make test_week4
+  133  bin/ci -i testcases/week4/b.gt2.s
+  134  bin/ci -i testcases/week4/b.eq.s
+  135  make all
+  136  bin/ci -i testcases/week4/b.eq.s
+  137  make all
+  138  bin/ci -i testcases/week4/b.eq.s
+  139  make all
+  140  bin/ci -i testcases/week4/b.eq.s
+  141  make all
+  142  bin/ci -i testcases/week4/b.eq.s
+  143  make test_week4
+  144  bin/ci -i testcases/week4/b.eq_err.s
+  145  ci_reference -i testcases/week4/b.eq_err.s
+  146  make all
+  147  make test_week4
+  148  ci_reference -i testcases/week4/ret.s
+  149  bin/ci -i testcases/week4/ret.s
+  150  bin/ci -i testcases/week4/ret.s
+  151  make all
+  152  bin/ci -i testcases/week4/b.gt.s
+  153  ci_reference -i testcases/week4/b.gt.s
+  154  make all
+  155  bin/ci -i testcases/week4/b.gt.s
+  156  ci_reference -i testcases/week4/b.gt.s
+  157  make all
+  158  ci_reference -i testcases/week4/b.gt.s
+  159  bin/ci -i testcases/week4/b.gt.s
+  160  ci_reference -i testcases/week4/b.ge.s
+  161  bin/ci -i testcases/week4/b.ge.s
+  162  bin/ci -i testcases/week4/b.ge.s
+  163  make all
+  164  bin/ci -i testcases/week4/b.ge.s
+  165  ci_reference -i testcases/week4/b.ge.s
+  166  bin/ci -i testcases/week4/b.ge.s
+  167  ci_reference -i testcases/week4/b.eq.s
+  168  bin/ci -i testcases/week4/b.eq.s
+  169  make all
+  170  make test_week4
+  171  make test_week4
+  172  make test_week4
+  173  make test_week4
+  174  make test_week4
+  175  make test_week4
+  176  make test_week4
+  177  make test_week4
+  178  make test_week4
+  179  make test_week4
+  180  make all
+  181  make test_week4
+  182  make all
+  183  make test_week4
+  184  make test_week4
+  185  make test_week4
+  186  make test_week4
+  187  make all
+  188  make all
+  189  make test_week4
+  190  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  191  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  192  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  193  git git clone https://<YOUR_USERNAME>@github.com/CS429-FA2025/mm-lab-harschitha.git
+  194  git clone harschitha@github.com/CS429-FA2025/mm-lab-harschitha.git
+  195  git clone git@github.com:CS429-FA2025/mm-lab-harschitha.git
+  196  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  197  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  198  git clone https://github.com/CS429-FA2025/mm-lab-harschitha.git
+  199  cd mm-lab-harschitha
+  200  cd mm-lab-harschitha
+  201  ls
+  202  cd mm-lab-harschitha
+  203  python 3 driver.py -w1
+  204  make all
+  205  python3 driver.py -w1
+  206  python 3 driver.py -w1
+  207   python3 driver.py -w1
+  208  python3 driver.py -w1
+  209  make all
+  210  python3 driver.py -w1
+  211  make all
+  212  make all
+  213  python3 driver.py -w1
+  214  make bump_test
+  215  make bump_test
+  216  ./bump_test
+  217  make all
+  218  ./bump_test
+  219  make all
+  220  ./bump_test
+  221  python3 driver.py -w1
+  222  make all
+  223  ./bump_test
+  224  python3 driver.py -w1
+  225  make all
+  226  python3 driver.py -w1
+  227  python3 driver.py -w1
+  228  make all
+  229  python3 driver.py -w1
+  230  make all
+  231  python3 driver.py -w2
+  232  make all
+  233  python3 driver.py -w2
+  234  make all
+  235  python3 driver.py -w1
+  236  make all
+  237  python3 driver.py -w1
+  238  python3 driver.py -w2
+  239  make all
+  240  python3 driver.py -w2
+  241  python3 driver.py -w2
+  242  make all
+  243  python3 driver.py -w2
+  244  make all
+  245  python3 driver.py -w2
+  246  make all
+  247  python3 driver.py -w2
+  248  python3 driver.py -w2
+  249  make all
+  250  python3 driver.py -w2
+  251  make all
+  252  python3 driver.py -w2
+  253  make all
+  254  python3 driver.py -w2
+  255  make all
+  256  python3 driver.py -w2
+  257  make all
+  258  python3 driver.py -w2
+  259  make all
+  260  python3 driver.py -w2
+  261  make all
+  262  python3 driver.py -w2
+  263  python3 driver.py -w2
+  264  make all
+  265  python3 driver.py -w2
+  266  python3 driver.py -w2
+  267  python3 driver.py -w2
+  268  make all
+  269  make all
+  270  python3 driver.py -w2
+  271  make all
+  272  make all
+  273  make all
+  274  python3 driver.py -w2
+  275  python3 driver.py -w2
+  276  make all
+  277  python3 driver.py -w2
+  278  make all
+  279  make all
+  280  make all
+  281  python3 driver.py -w2
+  282  make all
+  283  make all
+  284  make all
+  285  python3 driver.py -w2
+  286  make all
+  287  make all
+  288  python3 driver.py -w2
+  289  make all
+  290  python3 driver.py -w2
+  291  make all
+  292  python3 driver.py -w2
+  293  make all
+  294  make all
+  295  python3 driver.py -w2
+  296  make all
+  297  python3 driver.py -w2
+  298  make all
+  299  make all
+  300  python3 driver.py -w2
+  301  make all
+  302  python3 driver.py -w2
+  303  make all
+  304  python3 driver.py -w2
+  305  make all
+  306  python3 driver.py -w2
+  307  ../
+  308  cd ..
+  309  cd ..
+  310  clear
+  311  cd ~
+  312  pwd
+  313  touch ~/.gdbinit
+  314  ls -la
+  315  echo "set history save on" > ~/.gdbinit
+  316  cat ~/.gdbinit
+  317  pwd
+  318  git clone git@github.com:harschitha/mastery-version-a.git
+  319  ls ~/.ssh/id_*.pub
+  320  ls ~/.ssh/harschitha_*.pub 
+  321  ssh-keygen -t ed25519 
+  322  cat /u/harschi/.ssh/id_ed25519.pub
+  323  mkdir demo
+  324  cd demo
+  325  git clone git@github.com:harschitha/mastery-version-a.git
+  326  ls
+  327  cd mastery-version-a
+  328  ls
+  329  make
+  330  ./mini_ci
+  331  ./mini_ci testcases/basic_add.s
+  332  make check
+  333  ./mini_ci_reference  testcases/basic_add.s
+  334  gdb mini_ci
+  335  make debug
+  336  make debug
+  337  gdb mini_ci
+  338  make cleaan
+  339  make clean
+  340  make debug
+  341  gdb ./mini_ci
+  342  make clear
+  343  make clean
+  344  make debug
+  345  gdb mini_ci
+  346  ./mini_ci_reference  testcases/basic_add.s
+  347  make check
+  348  chmod +x mini_ci_reference
+  349  ./mini_ci_reference testcases/basic_add.s
+  350  make check
+  351  ./mini_ci_reference testcases/err_ops.s
+  352  ./mini_ci testcases/err_ops.s
+  353  make clean
+  354  make debug
+  355  gdb mini_ci
+  356  gdb mini_ci
+  357  make
+  358  make check
+  359  make check
+  360  make
+  361  make check
+  362  make
+  363  make check
+  364  make
+  365  make check
+  366  ./mini_ci_references testcases/err_ops2.s
+  367  ./mini_ci_reference testcases/err_ops2.s
+  368  ./mini_ci testcases/err_ops2.s
+  369  gdb mini_ci
+  370  make 
+  371  make clean
+  372  make debug
+  373  gdb mini_ci
+  374  make
+  375  make check
+  376  gdb mini_ci
+  377  make clean
+  378  make debug
+  379  gdb mini_ci
+  380  make
+  381  make check
+  382  show commands
+  383  install-mh
+  384  show commands
+  385  show commands
+  386  cat ~/.gdb_history
+  387  cat ~/.gdb_history
+  388  history
+  389  cat ~/.gdbinit
+  390  gdb mini_ci
+  391  cat ~/.gdbinit
+  392  gdb ./mini_ci
+  393  cat ~/.gdbinit
+  394  history > shell_logs
+  395  git add .
+  396  git commit-m "hi"
+  397  git commit -m "hi"
+  398  git push
+  399  ../
+  400  cd ../
+  401  rm -r mastery-version-a
+  402  cd ~
+  403  git clone git@github.com:harschitha/mastery-b.git
+  404  make 
+  405  make doc
+  406  make 
+  407  make doc
+  408  make doc
+  409  ls
+  410  make happy
+  411  make
+  412  make doc
+  413  make
+  414  make doc
+  415  make 
+  416  make doc
+  417  make check
+  418  make dopey
+  419  make clean
+  420  make happy
+  421  make grumpy
+  422  chmod +x
+  423  chmod +x trie_ref
+  424  chmod +x ./trie_ref
+  425  make grumpy
+  426  rm -rf mastery-b
+  427  cd ..
+  428  rm -rf mastery-b
+  429  git clone git@github.com:jack-g-h/shared-repo-version-b-harschitha.git
+  430  touch ~/.gdbinit
+  431  echo "set history save on" > ~/.gdbinit
+  432  cat ~/.gdbinit 
+  433  cd shared-repo-version-b-harschitha
+  434  make debug
+  435  make check
+  436  gdb mini_ci
+  437  make clean
+  438  make debug
+  439  make check
+  440  gdb mini_ci
+  441  make check
+  442  make
+  443  make clean
+  444  make debug
+  445  make check
+  446  gdb mini_ci
+  447  make 
+  448  make clean
+  449  make check
+  450  gdb mini_ci
+  451  make 
+  452  make check
+  453  gdb mini_ci
+  454  make check
+  455  gdb mini_ci
+  456  make
+  457  make check
+  458  make clean
+  459  make debug
+  460  gdb mini_ci
+  461  make 
+  462  make check
+  463  make
+  464  make check
+  465  make
+  466  make check
+  467  make
+  468  make check
+  469  gdb mini_ci
+  470  make
+  471  make check
+  472  make
+  473  make check
+  474  gdb mini_ci
+  475  make clean
+  476  make debug
+  477  gdb mini_ci
+  478  make
+  479  make
+  480  make check
+  481  make check
+  482  make check
+  483  make check
+  484  history > shell_logs.txt
+  485  cat shell_logs.txt
+  486  show commands > gdb_logs.txt
+  487  gdb 
+  488  show commands > gdb_logs.txt
+  489  q
+  490  git add .
+  491  git commit -m "message"
+  492  git push
+  493  make check
+  494  clear
+  495  cd ..
+  496  rm -rf shared-repo-version-b-harschitha/
+  497  cd ~/demo/mastery-version-a
+  498  code .
+  499  make mini_ci
+  500  make tests
+  501  make debug
+  502  make tests
+  503  make
+  504  make check
+  505  ./mini_ci testcases/basic_add.s
+  506  ./mini_ci_reference  testcases/basic_add.s
+  507  chmod u+x mini_ci_reference
+  508  ./mini_ci_reference  testcases/basic_add.s
+  509  make check
+  510  ./mini_ci_reference  testcases/err_ops.s
+  511  ./mini_ci  testcases/err_ops.s
+  512  make debug
+  513  gdb mini_ci
+  514  make debug
+  515  gdb mini_ci
+  516  make clean
+  517  make CFLAGS=-g
+  518  gdb mini_ci
+  519  make check
+  520  ./mini_ci  testcases/err_ops2.s
+  521  ./mini_ci_reference  testcases/err_ops2.s
+  522  make clean
+  523  make CFLAGS=-g
+  524  make debug
+  525  gdb mini_ci
+  526  make mini_ci
+  527  make check
+  528  ./mini_ci testcases/multi_op_err.s
+  529  ./mini_ci_reference testcases/multi_op_err.s
+  530  make clean
+  531  make CFLAGS=-g
+  532  make debug
+  533  gdb mini_ci
+  534  make mini_ci
+  535  make check
+  536  gdb -ex "show commands" -ex "quit"
+  537  quit
+  538  gdb -ex "show commands" -ex "quit"
+  539  gdb -ex "show commands" -ex "quit" > gdb_logs.txt
+  540  cat gdb_logs.txt
+  541  gdb show commands
+  542  show commands gdb_logs.txt
+  543  history > gdb_logs.txt
